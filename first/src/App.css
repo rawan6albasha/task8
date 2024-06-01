@@ -1,0 +1,33 @@
+/* src/assets/style/Header.css */
+.header-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.text-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-column {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-column img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

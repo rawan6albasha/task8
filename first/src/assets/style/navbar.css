@@ -1,0 +1,22 @@
+.bg-body-tertiary{
+    background-color:#ffffff!important;
+    box-shadow: 0px 0px 20px 5px #e3e2e2;
+}
+.container{
+    margin: 0 0px 0 29px;
+}
+
+
+
+/*____________________________________________Media Queries__________________________________________________________*/
+
+/* _________________________Styles for large screens_____________________________________ */
+@media only screen and (min-width: 1200px) {}
+
+/* _________________________________________Styles for medium screens___________________________________ */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* _______________________________Styles for small to medium screens _____________________________________*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+/*_________________________________________ Styles for small screens ____________________________________*/
+@media only screen and (max-width: 767px) {}

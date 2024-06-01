@@ -1,0 +1,112 @@
+/* Media Queries */
+ 
+/* Styles for large screens */
+@media only screen and (min-width: 1200px) {
+ 
+}
+   
+/* Styles for medium screens */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+ 
+}
+ 
+/* Styles for small to medium screens */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* header */
+ 
+    .text-column {
+      margin: 92px 0 124px 29px;
+      width: 324px;
+    }
+    .image-column .footer {
+      height: 127px;
+    }
+    .image-column .game {
+      width: 208px;
+    }
+    .image-column .start {
+      top: -154px;
+      right: 98px;
+      width: 200px;
+    }
+    .image-column .start-link {
+      right: 262px;
+      top: -119px;
+      font-size: 30px;
+    }
+    .image-column .pattern {
+      top: -476px;
+      width: 16%;
+    }
+    .text-column p {
+      font-size: 18px;
+      line-height: 25px;
+    }
+}
+ 
+/* Styles for small screens */
+@media only screen and (max-width: 767px) {
+    /* header */
+ 
+    .text-column {
+        margin: 68px 0 125px 26px;
+        width: 223px;
+    }
+    .image-column .footer {
+        height: 89px;
+    }
+    .image-column .game {
+        bottom: 94px;
+        right: 44px;
+        width: 110px;
+    }
+    .image-column .start {
+        position: absolute;
+        top: -68px;
+        right: 89px;
+        width: 104px;
+        z-index: 2;
+    }
+    .image-column .pattern {
+        top: -258px;
+        right: 7px;
+        width: 87px;
+    }
+    .image-column .start-link {
+        right: 177px;
+        top: -50px;
+        font-size: 20px;
+    }
+    .image-column .foot-down ul {
+        padding: 0 0 0 3px;
+        font-size: 16px;
+        gap: 8px;
+    }
+    .image-column .foot-down {
+        align-items: baseline;
+        margin-right: 0px;
+    }
+    .foot-down p {
+        font-size: 9px;
+    }
+    /* service */
+    .cardSe {
+        padding: 11px;
+        margin: 8px;
+        width: 281px;
+    }
+    .service {
+        margin-top: 108px;
+    }
+    .cardSe .Definition {
+        width: 278px;
+    }
+    .cardSe .ul {
+        padding: 0;
+    }
+    .cardSe .img {
+        left: 171px;
+        bottom: 130px;
+        width: 106px;
+    }
+}

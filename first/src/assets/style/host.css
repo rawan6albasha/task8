@@ -1,0 +1,46 @@
+.host{
+    background-color: #222222;
+}
+.hostCard{
+    background-color: #ffffff;
+    border-radius: 17px;
+    /* margin: 29px; */
+    width: 312px;}
+    
+    .cardPadding{
+        padding: 18px;
+    }
+
+    .flex{
+        gap: 13px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 45px;
+    }
+    .tit
+    {
+        color: #ffffff;
+        padding: 113px 0px 33px 0px;
+        text-align: center;
+        
+    }
+    .pa p{
+        margin-bottom: 0px;
+    }
+
+
+
+    /*____________________________________________Media Queries__________________________________________________________*/
+
+/* _________________________Styles for large screens_____________________________________ */
+@media only screen and (min-width: 1200px) {}
+
+/* _________________________________________Styles for medium screens___________________________________ */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* _______________________________Styles for small to medium screens _____________________________________*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+/*_________________________________________ Styles for small screens ____________________________________*/
+@media only screen and (max-width: 767px) {}

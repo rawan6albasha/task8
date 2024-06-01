@@ -1,0 +1,64 @@
+.body .flex-row{
+    gap: 13px;
+    flex-wrap: wrap;
+    display: flex;
+   /*  color: white; */
+    justify-content: space-evenly;
+
+}
+.body .flex-colu{
+    display: flex;
+    flex-direction: column;
+}
+.body .colu-5 .link{
+
+    list-style: none;
+}
+.body a{
+    color: white
+}
+.body .img{
+    margin-bottom: 30px;
+    position: relative;
+}
+.body{
+    color: white;
+    background-color: #222222;
+    padding: 106px 0px 0px 0px;
+}
+/* .col-1{ */
+    /* width: 200px; */
+/* } */
+.body .img::after{
+   /*  color: white; */
+    content: '.agency';
+    position: absolute;
+    bottom: 0px;
+}
+.body .bold-1{
+
+    display: block;
+    font-size: 25px;
+}
+.body p{
+    margin-bottom: 0px;
+}
+hr{
+    width: 917px;
+    color: white !important;
+}
+
+
+
+/*____________________________________________Media Queries__________________________________________________________*/
+
+/* _________________________Styles for large screens_____________________________________ */
+@media only screen and (min-width: 1200px) {}
+
+/* _________________________________________Styles for medium screens___________________________________ */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* _______________________________Styles for small to medium screens _____________________________________*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+/*_________________________________________ Styles for small screens ____________________________________*/
+@media only screen and (max-width: 767px) {}

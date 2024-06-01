@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cardSe{
+    box-shadow: 0px 0px 20px 5px #e3e2e2;
+    position: relative;
+    padding: 19px;
+    margin: 29px;
+    display: flex;
+    width: 587px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    border-radius: 21px    ;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -ms-border-radius: 21px;
+    -o-border-radius: 21px;
+}
+
+
+.cardSe .ul
+    {
+        list-style: none;
+        margin-bottom: 17px;
+        color: #8a8a8a;
+        font-size: 16px;
+        font-weight: 100;
+    }
+    .cardSe .provid, .cardSe .fotter{
+        font-weight: 600;
+        font-family: sans-serif;
+}
+    .cardSe .Definition{
+        width: 469px;
+    }
+    .cardSe .img{
+        position: absolute;
+        left: 275px;
+        bottom: -27px;
+
+    }
+    .cardSe .Definition
+    {font-family: main;
+    font-weight: 100;}
+    .flex{
+        gap: 13px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+
+    /*____________________________________________Media Queries__________________________________________________________*/
+
+/* _________________________Styles for large screens_____________________________________ */
+@media only screen and (min-width: 1200px) {}
+
+/* _________________________________________Styles for medium screens___________________________________ */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* _______________________________Styles for small to medium screens _____________________________________*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+/*_________________________________________ Styles for small screens ____________________________________*/
+@media only screen and (max-width: 767px) {}
